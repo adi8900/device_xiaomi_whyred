@@ -366,6 +366,9 @@
         <item>"/system/lib64/libsurfaceflinger.so"</item>
     </string-array>
 
+    <!-- Should the pinner service pin the Camera application? -->
+    <bool name="config_pinnerCameraApp">true</bool>
+
     <!-- Minimum screen brightness allowed by the power manager. -->
     <integer name="config_screenBrightnessDim">1</integer>
 

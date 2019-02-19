@@ -574,4 +574,7 @@
     <bool name="config_waitForMpctlOnBoot">true</bool>
  
    <bool name="config_multiColorBatteryLed">false</bool>
+
+    <!-- Whether to allow sending active app broadcast -->
+    <bool name="config_allowActivePackageBroadcast">true</bool>
 </resources>

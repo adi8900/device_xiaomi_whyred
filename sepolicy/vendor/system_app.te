@@ -6,3 +6,5 @@ allow system_app hal_mlipay_default:binder call;
 allow system_app sysfs_zram:dir search;
 allow system_app sysfs_zram:file read;
 allow system_app proc_pagetypeinfo:file { getattr open read };
+allow system_app sysfs_thermal:file { write };
+allow system_app apk_data_file:dir { add_name write };

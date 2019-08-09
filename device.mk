@@ -412,6 +412,10 @@ PRODUCT_PACKAGES += \
     android.hardware.thermal@1.0-service \
     thermal.sdm660
 
+# [WIP] Thermal Controler
+PRODUCT_PACKAGES += \
+    ThermalController
+
 # Touchscreen
 PRODUCT_PACKAGES += \
     libtinyxml2

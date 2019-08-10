@@ -25,10 +25,15 @@ $(call inherit-product, device/xiaomi/whyred/device.mk)
 # Inherit from custom vendor
 $(call inherit-product, vendor/MiuiCamera/config.mk)
 
+# Gapps and PixelStyle
+$(call inherit-product-if-exists, vendor/gapps/config.mk)
+$(call inherit-product-if-exists, vendor/pixelstyle/config.mk)
+
 # Inherit some common AOSiP stuff.
 $(call inherit-product, vendor/aosip/config/common_full_phone.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_GAPPS_ARCH := arm64
+IS_PHONE := true
 
 PRODUCT_NAME := aosip_whyred
 PRODUCT_BRAND := Xiaomi

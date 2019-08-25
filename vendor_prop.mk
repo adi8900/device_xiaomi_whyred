@@ -67,9 +67,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
     vendor.audio.adm.buffering.ms=2 \
     persist.vendor.audio.hw.binder.size_kbyte=1024
 
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.sf.lcd_density=440
-
 # Bluetooth SoC
 PRODUCT_PROPERTY_OVERRIDES += \
     vendor.qcom.bluetooth.soc=cherokee

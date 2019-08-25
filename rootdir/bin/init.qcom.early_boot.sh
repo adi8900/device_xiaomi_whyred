@@ -78,7 +78,7 @@ function set_density_by_fb() {
         elif [ $fb_width -ge 1440 ]; then
            setprop vendor.display.lcd_density 560
         elif [ $fb_width -ge 1080 ]; then
-           setprop vendor.display.lcd_density 440
+           setprop vendor.display.lcd_density 450
         elif [ $fb_width -ge 720 ]; then
            setprop vendor.display.lcd_density 320 #for 720X1280 resolution
         elif [ $fb_width -ge 480 ]; then
@@ -328,6 +328,13 @@ case "$baseband" in
     *)
         setprop persist.vendor.radio.atfwd.start true;;
 esac
+
+#set default lcd density
+#Since lcd density has read only
+#property, it will not overwrite previous set
+#property if any target is setting forcefully.
+set_density_by_fb
+
 
 # set Lilliput LCD density for ADP
 product=`getprop ro.build.product`

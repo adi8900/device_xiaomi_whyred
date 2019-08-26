@@ -259,7 +259,7 @@ persist.tnr.process.plates=2
 persist.denoise.process.plates=2
 
 # HAL1 apps list
-camera.hal1.packagelist=com.whatsapp,com.intsig.camscanner,com.instagram.android,com.snapchat.android
+vendor.camera.hal1.packagelist=com.whatsapp,com.intsig.camscanner,com.instagram.android,com.snapchat.android
 
 #set maximum supported adapter voltage
 persist.chg.max_volt_mv=9000

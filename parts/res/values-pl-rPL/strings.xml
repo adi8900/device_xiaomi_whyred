@@ -56,4 +56,6 @@
     <string name="dirac_preset_country">Country</string>
     <string name="dirac_preset_dance">Taniec</string>
     <string name="dirac_preset_metal">Metal</string>
+    <!-- QS tile title -->
+    <string name="dirac_qs_tile_title">Dźwięk Mi</string>
 </resources>

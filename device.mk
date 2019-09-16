@@ -244,11 +244,14 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     vendor.qti.hardware.cryptfshw@1.0-service-qti
 
-# IMS
+# IMS(our new apk no patched)
 PRODUCT_PACKAGES += \
-    ims-ext-common \
+    ims-ext-common_system \
     ims_ext_common.xml
 
+ PRODUCT_BOOT_JARS += \
+    ims-ext-common_system \
+ 
 # Moar Ril packages
 PRODUCT_PACKAGES += \
     qti-telephony-hidl-wrapper \

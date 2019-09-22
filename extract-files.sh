@@ -67,6 +67,7 @@ patchelf --remove-needed vendor.xiaomi.hardware.mtdservice@1.0.so "$BLOB_ROOT"/v
 patchelf --remove-needed vendor.xiaomi.hardware.mtdservice@1.0.so "$BLOB_ROOT"/vendor/lib64/libmlipay.so
 patchelf --remove-needed vendor.xiaomi.hardware.mtdservice@1.0.so "$BLOB_ROOT"/vendor/lib64/libmlipay@1.1.so
 
+sed -i 's/xml version="2.0"/xml version="1.0"/' "$DEVICE_BLOB_ROOT"/product/etc/permissions/vendor.qti.hardware.data.connection-V1.{0,1}-java.xml
 sed -i 's/libicuuc.so/libicuuq.so/g' "$BLOB_ROOT"/vendor/lib/libicuuq.so
 sed -i 's/libicuuc.so/libicuuq.so/g' "$BLOB_ROOT"/vendor/lib/libMiCameraHal.so
 sed -i 's/libminikin.so/libminikiq.so/g' "$BLOB_ROOT"/vendor/lib/libMiCameraHal.so

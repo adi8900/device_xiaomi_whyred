@@ -25,10 +25,18 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 # Inherit from whyred device
 $(call inherit-product, device/xiaomi/whyred/device.mk)
 
-# Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit MiuiCamera repo
+$(call inherit-product, vendor/MiuiCamera/config.mk)
 
-PRODUCT_NAME := lineage_whyred
+# Inherit some common AOSiP stuff.
+$(call inherit-product, vendor/aosip/config/common_full_phone.mk)
+
+# Welcome in Gapps word!
+TARGET_GAPPS_ARCH := arm64
+IS_PHONE := true
+TARGET_BOOT_ANIMATION_RES := 1080
+
+PRODUCT_NAME := aosip_whyred
 PRODUCT_BRAND := Xiaomi
 PRODUCT_DEVICE := whyred
 PRODUCT_MANUFACTURER := Xiaomi

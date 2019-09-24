@@ -944,6 +944,7 @@ vendor/lib/hw/gatekeeper.sdm660.so
 vendor/lib64/hw/gatekeeper.sdm660.so
 
 # GPS
+vendor/lib64/libqdma_file_agent.so|a5c129a8391e53b5b3afba2764db1a3192542122
 vendor/bin/hw/vendor.qti.gnss@2.0-service
 vendor/bin/DR_AP_Service
 vendor/bin/garden_app

@@ -49,6 +49,6 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME="whyred" \
     PRIVATE_BUILD_DESC="whyred-user 9 PKQ1.180904.001 V10.3.1.0.PEICNXM release-keys"
 
-BUILD_FINGERPRINT := "xiaomi/whyred/whyred:9/PKQ1.180904.001/V10.3.1.0.PEICNXM:user/release-keys"
+BUILD_FINGERPRINT := "google/taimen/taimen:10/QP1A.190711.020/5800535:user/release-keys"
 
 TARGET_VENDOR := Xiaomi

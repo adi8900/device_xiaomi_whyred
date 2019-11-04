@@ -473,7 +473,3 @@ PRODUCT_BOOT_JARS += \
 # XiaomiParts
 PRODUCT_PACKAGES += \
     XiaomiParts
-
-# fwk-detect
- PRODUCT_PACKAGES += \
-    libqti_vndfwk_detect

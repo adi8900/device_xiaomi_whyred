@@ -1187,6 +1187,10 @@ vendor/lib64/vendor.display.color@1.0.so|caf0c8e260f7aa33200ef209ce664a3eac55e47
 vendor/lib64/vendor.display.color@1.1.so|6e422a22b92c670d6c18fb15399c116ab98535a5
 vendor/lib64/vendor.display.postproc@1.0.so|8f247ef3d34e0116bd0c7b4068e28cd048abfd3b
 
+# QMI configs
+etc/permissions/qti_libpermissions.xml
+etc/permissions/qti_permissions.xml
+
 # QMI - from LA.UM.8.2.r1-04000-sdm660.0
 vendor/bin/irsc_util|4381ded94ac2775cf186c97c7ad6236eaa209eac
 vendor/bin/pd-mapper|57140e77c2e3ca648223cfa707cd111fcc70ab80
@@ -1426,8 +1430,8 @@ vendor/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc
 vendor/lib/vendor.qti.hardware.tui_comm@1.0.so
 vendor/lib64/vendor.qti.hardware.tui_comm@1.0.so
 
-# Wifi
-vendor/bin/cnss-daemon
+# Wifi daemon - from 03200 tag
+vendor/bin/cnss-daemon|15c8c5562c7a5faf9d0619658155917f977f8cb8
 
 # WiFi Display - from LA.UM.8.2.r1-04000-sdm660.0
 bin/wfdservice|d9cccfd6ca14a1d83117533296d6cac2c139c310

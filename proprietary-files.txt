@@ -1417,9 +1417,10 @@ vendor/lib64/libthermalfeature.so
 -vendor/lib64/libthermalclient.so
 vendor/lib64/libthermalioctl.so
 
-# Time services
+# Time services - from LA.UM.8.2.r1.04000-sdm660.0
 -vendor/app/TimeService/TimeService.apk
 vendor/bin/time_daemon
+-vendor/lib/libtime_genoff.so
 -vendor/lib64/libtime_genoff.so
 
 # TUI

@@ -139,9 +139,5 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.dbg.vt_avail_ovr=1 \
     persist.dbg.wfc_avail_ovr=1
 
-# Sim Selection Fix
-PRODUCT_PROPERTY_OVERRIDES += \
-    persist.vendor.radio.aosp_usr_pref_sel=true
-
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.audio.hw.binder.size_kbyte=1024
